@@ -7,7 +7,6 @@
 */
 
 struct Seg {
-    
     // left and right child of p
     inline int left(int p) { return (p << 1); }
     inline int right(int p) { return (left(p) | 1); }
