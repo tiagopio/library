@@ -3,6 +3,7 @@
     1-indexed
     find: O(a(n)) ~= O(1) amortized
     unite: O(a(n)) ~= O(1) amortized
+    components: O(1)
     max_size: O(1)
 */
 
