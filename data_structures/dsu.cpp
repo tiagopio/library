@@ -25,6 +25,7 @@ struct DSU {
         if (size[u] > size[v]) swap(u, v);
         parent[u] = v, size[v] += size[u];
         mx_size = max(mx_size, size[v]);
+        comps--;
     }
 
     int components() { return comps; }
