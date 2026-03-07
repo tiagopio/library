@@ -86,7 +86,7 @@ def recommend(letter, L, R, problems, contests, solved):
         p for p in problems
         if p["index"] == letter
         and p.get("rating")
-        and p["contestId"] >= 1500
+        and p["contestId"] >= 1300
         and contests.get(p["contestId"])
         and is_div2_like(contests[p["contestId"]])
         and f"{p['contestId']}-{p['index']}" not in solved
